@@ -23,6 +23,7 @@ def finger_status(lm):
 
     return fingers  # jari
 
+# ganti ganti aja bos
 def detect_gesture(fingers):
     if fingers == [1,1,1,1,1]:
         return "HI"
@@ -73,3 +74,4 @@ while True:
 
 cap.release()
 cv2.destroyAllWindows()
+
